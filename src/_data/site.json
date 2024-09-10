@@ -1,32 +1,37 @@
 {
   "base_url": "http://example.com",
-  "social_media_links": [
-    {
-      "link_url": "https://www.youtube.com/",
-      "icon_path": "/assets/images/icons/social/youtube.svg",
-      "label": "Youtube"
-    },
-    {
-      "link_url": "https://www.facebook.com/",
-      "icon_path": "/assets/images/icons/social/facebook.svg",
-      "label": "Facebook"
-    },
-    {
-      "link_url": "https://www.linkedin.com/",
-      "icon_path": "/assets/images/icons/social/linkedin.svg",
-      "label": "LinkedIn"
-    },
-    {
-      "link_url": "https://www.twitter.com/",
-      "icon_path": "/assets/images/icons/social/x.svg",
-      "label": "Twitter"
-    },
-    {
-      "link_url": "https://www.instagram.com/",
-      "icon_path": "/assets/images/icons/social/instagram.svg",
-      "label": "Instagram"
-    }
-  ],
+  "name": "Aggtrans.com",
+  "description": "Aggtrans has been the leading supplier of crushed stone, sand, gravel, fill dirt, mulch, boulders, clay, rocks, backfill and recycled materials in MD, DC, VA, PA and DE for over 30 years",
+  "email": "sales@aggtrans.com",
+  "emailForMailTo": "mailto:sales@aggtrans.com",
+  "phoneForTel": "410-766-4242",
+  "phoneFormatted": "(410) 766-4242",
+  "faxNo": "(410) 766-2002",
+  "faxNoforTel": "410-766-2002",
+  "homeURL": "https://aggtrans.com/index",
+  "onlineOrderURL": "https://aggtrans.com/online-order-form",
+  "callBackURL": "https://aggtrans.com/callback",
+  "rfqURL": "https://aggtrans.com/request-a-quote",
+  "logo":  "https://res.cloudinary.com/aggtrans/image/upload/c_scale,dpr_2.0,f_auto,q_auto,w_200/v1690600232/logos/aggtrans-logo-rgb-357x57.png",
+  "smallLogo":  "https://res.cloudinary.com/aggtrans/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_200/v1690600232/logos/aggtrans-logo-rgb-357x57.png",
+  "logoALT":  "Aggtrans Logo",
+  "logoSm":  "https://res.cloudinary.com/aggtrans/image/upload/c_scale,dpr_4.0,f_auto,h_50,q_auto/v1590417175/logos/aggtrans-logo-thumbnail.jpg",
+  "faviconSM":  "https://res.cloudinary.com/aggtrans/image/upload/c_scale,h_50/f_auto,q_auto,dpr_auto/logos/aggtrans-logo-thumbnail.jpg",
+  "faviconLG":  "https://res.cloudinary.com/aggtrans/image/upload/c_scale,h_80/f_auto,q_auto,dpr_auto/logos/aggtrans-logo-thumbnail.jpg",
+  "hours":  "Mon-Fri: 7am - 5pm",
+  "address": {
+        "lineOne": "7535 Railroad Avenue",
+        "lineTwo": ".",
+        "city": "Harmans",
+        "state": "MD",
+        "zip": "21077",
+        "mapLink": "https://goo.gl/maps/E9pqgSMM4Pn"
+   },
+  "favicons": {
+        "appleTouch": "/assets/favicons/apple-touch-icon.png",
+        "fav-114x114": "/assets/favicons/Aggtrans-Favicon_114x114.png",
+        "fav-57x57": "/assets/favicons/aggtrans_favicon_57x57.png"
+   },
   "_inputs": {
     "social_media_links": {
       "type": "array",

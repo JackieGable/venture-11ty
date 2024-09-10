@@ -1,8 +1,11 @@
-nav_logo_image: /assets/uploads/venture-logo.svg
+nav_logo_image: https://res.cloudinary.com/aggtrans/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_300/logos/aggtrans-logo-rgb-357x57.png
 logo_text: Venture
 navigation_items:
   - label: Our Services
     link_url: /#services
+    open_in_new_tab: false
+  - label: Products
+    link_url: /#products
     open_in_new_tab: false
   - label: Book Now
     link_url: /booking

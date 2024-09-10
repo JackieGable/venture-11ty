@@ -59,8 +59,10 @@
       max-width: initial;
     }
     .c-image {
-      padding-top: unset;
-      padding-bottom: unset;
+      padding-top: 15px;
+      // padding-top: unset;
+    padding-bottom: 15px;
+      // padding-bottom: unset;
       max-height: 52px;
       width: auto;
     }

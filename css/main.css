@@ -216,8 +216,8 @@ h6 {
   max-width: initial;
 }
 .c-navigation__logo-link .c-image {
-  padding-top: unset;
-  padding-bottom: unset;
+  padding-top: 15px;
+  padding-bottom: 15px;
   max-height: 52px;
   width: auto;
 }
