@@ -1,10 +1,12 @@
 @import "reset.scss";
-@import "variables.scss";
-@import "color_groups.scss";
+// @import "variables.scss";
+// @import "color_groups.scss";
 @import "nav.scss";
 @import "footer.scss";
-@import "component-browser.scss";
-@import "leaflet.scss";
+// @import "component-browser.scss";
+// @import "leaflet.scss";
+@import "root.scss";
+@import "custom.scss";
 
 body {
   display: grid;
@@ -13,7 +15,7 @@ body {
   grid-template-rows: auto 1fr auto;
   font-family: var(--content-font), Lato, sans-serif;
   color: var(--main-text-color, #F9F9FB);
-  background-color: var(--main-background-color, #3B3B3D);
+  background-color: var(--main-background-color, skyblue);
 
 
   h1,
