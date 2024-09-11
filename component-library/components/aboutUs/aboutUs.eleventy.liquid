@@ -1,0 +1,41 @@
+<!-- /bookshop/components/aboutUs/aboutUs.eleventy.liquid -->
+
+<section id="sbs-1067">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">{{ topper }}</span>
+      <h2 class="cs-title">{{ mainHeading }}</h2>
+      <p class="cs-text">{{ mainIntro }}</p>
+      <ul class="cs-list">
+        <li class="cs-li">
+          <div class="cs-flex">
+            <h3 class="cs-h3">{{ secondHeading }}</h3>
+            <p class="cs-li-text">{{ secondText }}</p>
+          </div>
+        </li>
+        <li class="cs-li">
+          <div class="cs-flex">
+            <h3 class="cs-h3">{{ thirdHeading }}</h3>
+            <p class="cs-li-text">{{ thirdText }}</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="cs-image-group">
+      <picture class="cs-picture cs-picture1">
+        <source media="(max-width: 600px)" srcset="{{ firstImgSM }}">
+        <source media="(min-width: 601px)" srcset="{{ firstImgLG }}">
+        <img decoding="async" src="{{ firstImgSM }}" alt="{{ firstImgAlt }}" width="600" height="450">
+      </picture>
+      <picture class="cs-picture cs-picture2">
+        <source media="(max-width: 600px)" srcset="{{ secondImgSM }}">
+        <source media="(min-width: 601px)" srcset="{{ secondImgLG }}">
+        <img decoding="async" src="{{ secondImgSM }}" alt="{{ secondImgAlt }}" width="600" height="343">
+      </picture>
+      <div class="cs-box">
+        <span class="cs-number">{{ numberOfYears }}</span>
+        <span class="cs-desc">{{ servingDetails }}</span>
+      </div>
+    </div>
+  </div>
+</section>
