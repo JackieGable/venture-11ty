@@ -1818,7 +1818,7 @@ body {
   grid-template-rows: auto 1fr auto;
   font-family: var(--content-font), Lato, sans-serif;
   color: var(--main-text-color, #F9F9FB);
-  background-color: var(--main-background-color, skyblue);
+  background-color: var(--main-background-color, beige);
 }
 body h1,
 body h2,
