@@ -11,6 +11,8 @@
     "bookshop:new": "npx @bookshop/init --component",
     "bookshop:update": "npx @bookshop/up@latest",
     "eleventy:build": "eleventy",
+    "build": "cross-env ELEVENTY_ENV=production npx eleventy",
+    "dev": "npx @11ty/eleventy --serve --port=8081",
     "eleventy:watch": "ELEVENTY_ENV=development eleventy --serve",
     "sass:watch": "sass --no-source-map --watch src/assets/styles:css",
     "sass:build": "sass --no-source-map src/assets/styles:css",
@@ -31,6 +33,7 @@
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.8",
     "@bookshop/sass": "^3.6.5",
+    "cross-env": "^7.0.3",
     "eleventy-plugin-svg-contents": "^0.7.0",
     "outdent": "^0.8.0"
   },
